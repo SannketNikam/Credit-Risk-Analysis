@@ -1,1 +1,9 @@
 /* Stylesheet */
+
+*, html, body {
+    background-color: aliceblue;
+}
+
+.required {
+    color: red;
+}

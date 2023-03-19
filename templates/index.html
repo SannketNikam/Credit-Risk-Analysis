@@ -4,90 +4,92 @@
 
 <!-- Loan Approval Form -->
 
-<form action="/predict" method="POST" class="row g-3 mx-3 mt-4">
+<form action="/predict" method="POST" class="row g-3 px-5 pt-2">
 
     <!-- First Name -->
-    <div class="col-md-6">
+    <div class="col-md-5">
         <label for="firstName" class="form-label">First Name</label>
         <input type="text" class="form-control" id="firstName">
     </div>
 
     <!-- Last Name -->
-    <div class="col-md-6">
+    <div class="col-md-5">
         <label for="lastName" class="form-label">Last Name</label>
         <input type="text" class="form-control" id="lastName">
     </div>
 
     <!-- Gender -->
-    <div class="col-12">
-        <label for="gender" class="form-label">Gender</label>
-        &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="1">
-        &nbsp;<label>Male</label>
-        &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="0">
-        &nbsp;<label>Female</label>
+    <div class="col-md-5">
+        <label for="gender" class="form-label">Gender<span class="required">*</span></label>
+        <label>&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="1">
+            &nbsp;Male</label>
+        <label>&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="0">
+            &nbsp;Female</label>
     </div>
 
     <!-- Married -->
-    <div class="question-answer">
-        <p>Married<span class="required">*</span></p>
-        <label><input type="radio" value='1' name="married" required /> <span>Yes</span></label>
-        <label><input type="radio" value="0" name="married" required /> <span>No</span></label>
+    <div class="col-md-5">
+        <label>Married<span class="required">*</span></label>
+        <label>&nbsp;&nbsp;&nbsp;<input type="radio" value='1' name="married" required />
+            Yes</label>
+        <label>&nbsp;&nbsp;&nbsp;<input type="radio" value="0" name="married" required />
+            No</label>
     </div>
 
-    <!-- Dependants -->
-    <p>Dependants<span class="required">*</span></p>
-    <select name='dependants'>
-        <option value="0">0</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3+</option>
-    </select>
-
     <!-- Education -->
-    <div class="question-answer">
+    <div class="col-md-3 mt-5">
         <p>Education<span class="required">*</span></p>
         <label><input type="radio" value='1' name="education" required /> <span>Graduate</span></label>
         <label><input type="radio" value="0" name="education" required /> <span>Non Graduate</span></label>
     </div>
 
     <!-- Self Employed -->
-    <div class="question-answer">
+    <div class="col-md-3 mt-5">
         <p>Self_Employed<span class="required">*</span></p>
         <label><input type="radio" value='1' name="selfEmployed" required /> <span>Yes</span></label>
         <label><input type="radio" value="0" name="selfEmployed" required /> <span>No</span></label>
     </div>
 
     <!-- Credit History -->
-    <div class="question-answer">
+    <div class="col-md-3 mt-5">
         <p>Credit_History<span class="required">*</span></p>
         <label><input type="radio" value='1' name="credit" required /> <span>Yes</span></label>
         <label><input type="radio" value="0" name="credit" required /> <span>No</span></label>
     </div>
 
     <!-- Property Area -->
-    <div class="question-answer">
+    <div class="col-md-3 mt-5">
         <p>Property_Area<span class="required">*</span></p>
         <label><input type="radio" value='0' name="parea" required /> <span>Rural</span></label>
         <label><input type="radio" value="1" name="parea" required /> <span>Semiurban</span></label>
         <label><input type="radio" value="2" name="parea" required /> <span>Urban</span></label>
     </div>
 
+    <!-- Dependants -->
+    <p class="mt-5">Dependants<span class="required">*</span></p>
+    <select class="form-control col-md-11" name='dependants'>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3+</option>
+    </select>
+
     <!-- Total Income -->
     <div class="item">
-        <label> Total Income</label>
-        <input type="number" name="totalIncome" placeholder="total Income" required />
+        <label> Total Income<span class="required">*</span></label>
+        <input type="number" name="totalIncome" placeholder="Total Income" required />
     </div>
 
     <!-- Loan Term -->
     <div class="item">
-        <label> Loan term</label>
-        <input type="number" name="amountTerm" placeholder="Loan term" required />
+        <label> Loan Term<span class="required">*</span></label>
+        <input type="number" name="amountTerm" placeholder="Loan Term" required />
     </div>
 
     <!-- Loan Amount -->
     <div class="item">
-        <label> Loan Amount </label>
-        <input type="number" name="loanAmount" placeholder="loan Amount" required />
+        <label> Loan Amount<span class="required">*</span></label>
+        <input type="number" name="loanAmount" placeholder="Loan Amount" required />
     </div>
 
     <!-- T&C -->
