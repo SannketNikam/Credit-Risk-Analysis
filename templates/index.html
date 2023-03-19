@@ -1,15 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+{% block title %} Home {% endblock title %}
+{% block body %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Credit Risk Analysis</title>
-</head>
+<!-- Loan Approval Form -->
 
-<body>
+<form action="/predict" method="POST" class="row g-3 mx-3 mt-4">
 
-</body>
+    <!-- First Name -->
+    <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName">
+    </div>
 
-</html>
+    <!-- Last Name -->
+    <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName">
+    </div>
+
+    <!-- Gender -->
+    <div class="col-12">
+        <label for="gender" class="form-label">Gender</label>
+        &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="1">
+        &nbsp;<label>Male</label>
+        &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="0">
+        &nbsp;<label>Female</label>
+    </div>
+
+    <!-- Married -->
+    <div class="question-answer">
+        <p>Married<span class="required">*</span></p>
+        <label><input type="radio" value='1' name="married" required /> <span>Yes</span></label>
+        <label><input type="radio" value="0" name="married" required /> <span>No</span></label>
+    </div>
+
+    <!-- Dependants -->
+    <p>Dependants<span class="required">*</span></p>
+    <select name='dependants'>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3+</option>
+    </select>
+
+    <!-- Education -->
+    <div class="question-answer">
+        <p>Education<span class="required">*</span></p>
+        <label><input type="radio" value='1' name="education" required /> <span>Graduate</span></label>
+        <label><input type="radio" value="0" name="education" required /> <span>Non Graduate</span></label>
+    </div>
+
+    <!-- Self Employed -->
+    <div class="question-answer">
+        <p>Self_Employed<span class="required">*</span></p>
+        <label><input type="radio" value='1' name="selfEmployed" required /> <span>Yes</span></label>
+        <label><input type="radio" value="0" name="selfEmployed" required /> <span>No</span></label>
+    </div>
+
+    <!-- Credit History -->
+    <div class="question-answer">
+        <p>Credit_History<span class="required">*</span></p>
+        <label><input type="radio" value='1' name="credit" required /> <span>Yes</span></label>
+        <label><input type="radio" value="0" name="credit" required /> <span>No</span></label>
+    </div>
+
+    <!-- Property Area -->
+    <div class="question-answer">
+        <p>Property_Area<span class="required">*</span></p>
+        <label><input type="radio" value='0' name="parea" required /> <span>Rural</span></label>
+        <label><input type="radio" value="1" name="parea" required /> <span>Semiurban</span></label>
+        <label><input type="radio" value="2" name="parea" required /> <span>Urban</span></label>
+    </div>
+
+    <!-- Total Income -->
+    <div class="item">
+        <label> Total Income</label>
+        <input type="number" name="totalIncome" placeholder="total Income" required />
+    </div>
+
+    <!-- Loan Term -->
+    <div class="item">
+        <label> Loan term</label>
+        <input type="number" name="amountTerm" placeholder="Loan term" required />
+    </div>
+
+    <!-- Loan Amount -->
+    <div class="item">
+        <label> Loan Amount </label>
+        <input type="number" name="loanAmount" placeholder="loan Amount" required />
+    </div>
+
+    <!-- T&C -->
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+                Terms and Conditions<span>*</span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Submit -->
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+
+{% endblock body %}
