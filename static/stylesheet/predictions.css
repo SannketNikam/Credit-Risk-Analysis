@@ -1,0 +1,17 @@
+/* Predictions Stylesheet */
+
+*,
+html,
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+}
+
+.required {
+    color: red;
+}
