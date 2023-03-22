@@ -56,7 +56,7 @@ def predict():
 
     print(result)
     
-    return render_template('index.html', loan_result = result)
+    return render_template('about.html', loan_result = result)
 
 if __name__ == "__main__":
     app.run(debug = True, host = config.HOST, port = config.PORT)

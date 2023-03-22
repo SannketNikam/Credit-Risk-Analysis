@@ -1,9 +1,13 @@
-/* Stylesheet */
+/* Stylesheet Base */
 
-*, html, body {
+*,
+html,
+body,
+p {
     background-color: aliceblue;
 }
 
-.required {
-    color: red;
+/* Navigation Bar */
+#navbar {
+    font-size: 20px;
 }
