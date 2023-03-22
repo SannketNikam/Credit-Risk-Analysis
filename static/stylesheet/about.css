@@ -1,0 +1,33 @@
+/* Stylesheet */
+
+*,
+html,
+body {
+    background-color: aliceblue;
+}
+
+.required {
+    color: red;
+}
+
+.credit-image {
+    margin: auto;
+    width: 95%;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+}
+
+#about-heading {
+    margin: 20px 0px 30px 50px;
+}
+
+.about-container {
+    margin: 5px 15px 5px 50px;
+}
+
+.content {
+    font-size: 23px;
+}

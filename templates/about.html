@@ -3,13 +3,61 @@
 {% block body %}
 
 <!-- CSS -->
-<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/about.css') }}">
 
-<h1 class="justify-content-center pt-3">• What is Credit Risk Analysis?</h1>
+<!-- Image -->
+<div class="credit-image">
+    <img src="{{ url_for('static', filename='images/Credit-Risk-Analysis.jpg') }}" alt="Credit-Risk-Analysis">
+    <hr>
+</div>
 
-<p class="display-6 px-5">When a customer applies for a loan, banks and other credit providers use statistical models to
-    determine whether or not to grant the loan based on the likelihood of the loan being repaid. The factors involved in
-    determining this likelihood are complex, and extensive statistical analysis and modeling are required to predict the
-    outcome for each individual case.</p>
+<h1 id="about-heading" class="justify-content-center pt-3">• What is Credit Risk Analysis?</h1>
 
+<div class="about-container">
+    <p class="content">
+        <b>W</b>hen a customer applies for a loan, banks and other credit providers use statistical models to
+        determine whether or not to grant the loan based on the likelihood of the loan being repaid. The factors
+        involved in
+        determining this likelihood are complex, and extensive statistical analysis and modeling are required to predict
+        the
+        outcome for each individual case<b>.</b>
+        <br><br>
+        <b>C</b>redit Risk Analysis is the process of evaluating the creditworthiness of an individual or a
+        company to assess the risk of default on a loan or credit product. XGBoost is a popular open-source gradient
+        boosting library that is used for building predictive models for classification and regression tasks<b>.</b>
+        <br><br>
+        <b>I</b>n a Credit Risk Analysis using XGBoost, the goal is to use machine learning algorithms to build a model
+        that
+        can accurately predict the risk of default based on a set of input features, such as credit score, income,
+        employment history, and other financial data<b>.</b>
+        <br><br>
+        <b>T</b>he process typically involves the following steps<b>:</b>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>1.</b> Data Preparation<b> :</b> Collect and preprocess the relevant
+        data,
+        including cleaning, transforming, and
+        engineering
+        features<b>.</b>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>2.</b> Model Training<b> :</b> Use the XGBoost algorithm to train a model
+        on the
+        preprocessed data<b>.</b>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>3.</b> Model Evaluation<b> :</b> Evaluate the performance of the model
+        using
+        various metrics such as
+        accuracy,precision,
+        recall, and F1 score<b>.</b>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>4.</b> Model Tuning<b> :</b> Optimize the hyperparameters of the model to
+        improve
+        its performance<b>.</b>
+        <br><br>
+        <b>O</b>nce the model is trained and validated, it can be used to make predictions on new data to
+        assess the risk of default and make informed decisions about loan approvals and credit products<b>.</b>
+        <br><br>
+        <b>O</b>verall, Credit Risk Analysis using XGBoost is a powerful tool that can help lenders and
+        financial institutions to make better decisions and manage risk more effectively<b>.</b>
+    </p>
+</div>
 {% endblock body %}
