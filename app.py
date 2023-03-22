@@ -54,6 +54,8 @@ def predict():
 
     result = predictions.loan_prediction(data)
 
+    print(result)
+    
     return render_template('index.html', loan_result = result)
 
 if __name__ == "__main__":

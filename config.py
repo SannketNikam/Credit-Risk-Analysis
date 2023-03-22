@@ -2,4 +2,4 @@
 
 PORT = 8080
 HOST = '0.0.0.0'
-MODEL_PATH = r"./models/model.pkl"
+MODEL_PATH = r"./models/xgboost.pkl"
