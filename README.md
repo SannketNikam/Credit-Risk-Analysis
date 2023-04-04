@@ -6,7 +6,7 @@
 **Credit Risk Analysis** is an important process that enables lenders, credit rating agencies, and other financial institutions to evaluate the creditworthiness of borrowers and make informed decisions about extending credit. In this project, we will be using the **XGBoost** algorithm to predict whether a borrower is likely to default on a loan or not.
 
 ## Dataset
-The <a href="./data/">dataset</a> used in this project contains information about the loan issued including the Loan ID, Gender, Married, Dependents, Education, Self Employed, Applicant Income, Co-Applicant Income, Loan Amount, Loan Amount Term, Credit History, Property Area and Loan Status.
+The <a href="./Data/">dataset</a> used in this project contains information about the loan issued including the Loan ID, Gender, Married, Dependents, Education, Self Employed, Applicant Income, Co-Applicant Income, Loan Amount, Loan Amount Term, Credit History, Property Area and Loan Status.
 
 ## Preprocessing
 Before building our XGBoost model, the data was preprocessed by handling missing values, converting categorical variables to numerical and Label Encoding some features.
