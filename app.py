@@ -213,4 +213,4 @@ if __name__ == "__main__":
         pass
 
 # While deploying turn debug to false
-    app.run(debug = True, host = config.HOST, port = config.PORT)
+    app.run(debug = False, host = config.HOST, port = config.PORT)
