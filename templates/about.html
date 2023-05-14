@@ -1,106 +1,464 @@
-{% extends 'base.html' %}
-{% block title %} Loan Approval {% endblock title %}
-{% block body %}
+<!DOCTYPE html>
+<html lang="english">
 
-<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/predictions.css') }}">
+<head>
+  <title>Credito - About </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
 
-<!-- Loan Approval Form -->
-<div class="container">
-    <form action="/predict" method="POST" class="row g-3 px-5 pt-2">
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏦</text></svg>">
 
-        <!-- First Name -->
-        <div class="col-md-6">
-            <label for="firstName" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="firstName">
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+
+    .output {
+      display: inline-block;
+      width: 100%;
+      margin-top: 78px;
+    }
+
+    #closeButon {
+      z-index: 1;
+    }
+  </style>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/style.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/about.css') }}" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <!-- Other -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+
+    <div class="about-container">
+      <div class="about-about-mobile">
+        <div class="about-mobile-version">
+          <a href="./navigation-mobile"><img alt="mdihamburgermenu7780"
+              src="{{ url_for('static', filename='playground_assets/mdihamburgermenu7780-qm1.svg') }}"
+              class="about-mdihamburgermenu" /></a>
+          <img alt="Vector7782" src="{{ url_for('static', filename='playground_assets/vector7782-qh3.svg') }}"
+            class="about-vector" />
+          <div class="about-group39947">
+            <img alt="Rectangle45027784"
+              src="{{ url_for('static', filename='playground_assets/rectangle45027784-ttj.svg') }}"
+              class="about-rectangle4502" />
+            <div class="about-frame1150">
+              <span class="about-text"><span>Terms</span></span>
+              <span class="about-text002"><span>Privacy</span></span>
+              <span class="about-text004"><span>Cookies</span></span>
+            </div>
+            <img alt="Line1677789" src="{{ url_for('static', filename='playground_assets/line1677789-7map.svg') }}"
+              class="about-line167" />
+            <div class="about-group39800">
+              <span class="about-text006"><span>Credito 2023</span></span>
+              <img alt="Vector7792" src="{{ url_for('static', filename='playground_assets/vector7792-ux9.svg') }}"
+                class="about-vector01" />
+            </div>
+          </div>
+          <div class="about-services-footer">
+            <span class="about-text008"><span>Company</span></span>
+            <a href="./loan-approval"><span class="about-text010"><span>Loan Approval</span></span></a>
+            <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><span class="about-text012"><span>Source
+                  Code</span></span></a>
+          </div>
+          <div class="about-get-help">
+            <span class="about-text014"><span>Pages</span></span>
+            <a href="/"><span class="about-text016"><span>Home</span></span></a>
+            <a href="./about"><span class="about-text018"><span>About us</span></span></a>
+            <a href="./contact"><span class="about-text020"><span>Contact</span></span></a>
+          </div>
+          <span class="about-text022">
+            <span>
+              Looking to find out more? Join our Team now. Get in touch with
+              us.
+            </span>
+          </span>
+          <img alt="Vector7710" src="{{ url_for('static', filename='playground_assets/vector7710-jcr8.svg') }}"
+            class="about-vector02" />
+          <div class="about-socail-media">
+            <img alt="Vector7710" src="{{ url_for('static', filename='playground_assets/vector7710-jokr.svg') }}"
+              class="about-vector03" />
+            <img alt="IconLucideIcon7710"
+              src="{{ url_for('static', filename='playground_assets/iconlucideicon7710-nmbk.svg') }}"
+              class="about-icon-lucide-icon" />
+            <img alt="Ellipse497710"
+              src="{{ url_for('static', filename='playground_assets/ellipse497710-big-200h.png') }}"
+              class="about-ellipse49" />
+            <img alt="Ellipse507710"
+              src="{{ url_for('static', filename='playground_assets/ellipse507710-uk7l-200h.png') }}"
+              class="about-ellipse50" />
+            <img alt="Ellipse517710"
+              src="{{ url_for('static', filename='playground_assets/ellipse517710-x93-200h.png') }}"
+              class="about-ellipse51" />
+            <img alt="bxlgmail7711" src="{{ url_for('static', filename='playground_assets/bxlgmail7711-i8qe.svg') }}"
+              class="about-bxlgmail" />
+          </div>
+          <span class="about-text024"><span>About us</span></span>
+          <span class="about-text026">
+            <span>
+              Credito is a systematic process that financial institutions and
+              lenders use to assess the creditworthiness of borrowers, which
+              involves evaluating their ability to repay loans or meet credit
+              obligations. This analysis typically includes a thorough
+              examination of various factors, such as the financial health of
+              the borrower, their credit history, repayment capacity, market
+              conditions, and other relevant information.
+            </span>
+          </span>
+          <div class="about-frame39703"></div>
+          <div class="about-group1000002623">
+            <span class="about-text028"><span>What is</span></span>
+            <img alt="Vector7720" src="{{ url_for('static', filename='playground_assets/vector7720-z9b.svg') }}"
+              class="about-vector04" />
+            <span class="about-text030">?</span>
+          </div>
+          <div class="about-group1000002624">
+            <span class="about-text031"><span>How</span></span>
+            <img alt="Vector7721" src="{{ url_for('static', filename='playground_assets/vector7721-6mgp.svg') }}"
+              class="about-vector05" />
+            <span class="about-text033"><span>works ?</span></span>
+          </div>
+          <div class="about-group1000002625">
+            <span class="about-text035"><span>Who made</span></span>
+            <img alt="Vector7722" src="{{ url_for('static', filename='playground_assets/vector7722-a2ub.svg') }}"
+              class="about-vector06" />
+            <span class="about-text037"><span>possible!</span></span>
+          </div>
+          <span class="about-text039"><span>Data Collection</span></span>
+          <span class="about-text041">
+            <span>
+              Credito gather relevant data on the borrower, including
+              financial statements, credit history, repayment capacity, market
+              conditions, and other pertinent information. This data is
+              collected through various sources, such as financial statements,
+              credit reports, credit applications, and borrower-provided
+              information.
+            </span>
+          </span>
+          <span class="about-text043"><span>Data Analysis</span></span>
+          <span class="about-text045">
+            <span>
+              Credito analyze the collected data using analytical tools and
+              techniques to assess the credit risk profile of the borrower.
+              This may involve evaluating financial ratios, credit scores,
+              credit ratings, market trends, and other relevant indicators to
+              determine the borrower's financial health, creditworthiness, and
+              potential risks.
+            </span>
+          </span>
+          <span class="about-text047"><span>Decision Making</span></span>
+          <span class="about-text049">
+            <span>
+              Based on the Credito findings and recommendations, lenders make
+              informed decisions on loan approvals, credit limits, interest
+              rates, and other credit-related terms and conditions.
+            </span>
+          </span>
+          <span class="about-text051">
+            <span class="about-text052">
+              Credito is a BBA(CA) Semester Project created by
+            </span>
+            <a href="https://github.com/SannketNikam/"><span class="about-text053">Sanket Nikam</span></a>
+            <span class="about-text054">and</span>
+            <a style="text-decoration: underline;" href="https://github.com/Atharshhhh"><span>Atharsh Bodke.</span></a>
+          </span>
+          <div class="about-group1000002621">
+            <div class="about-group40251">
+              <img alt="Rectangle44727722"
+                src="{{ url_for('static', filename='playground_assets/rectangle44727722-2m1s-400w.png') }}"
+                class="about-rectangle4472" />
+              <div class="about-maskgroup"></div>
+            </div>
+            <div class="about-group1000002620">
+              <a href="./contact">
+                <div class="about-group39809">
+                  <span class="about-text056"><span>Get Started</span></span>
+                </div>
+              </a>
+              <span class="about-text058">
+                <span>Get Started here,</span>
+              </span>
+              <span class="about-text060">
+                <span>
+                  Analyze your Credit Risk and Approve your Loan now !!
+                </span>
+              </span>
+            </div>
+          </div>
         </div>
 
-        <!-- Last Name -->
-        <div class="col-md-6">
-            <label for="lastName" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastName">
+        <!-- Message -->
+        <div class="output">
+          {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+          {% for category, message in messages %}
+          {% if category == 'error' %}
+          <div class="alert alert-danger alter-dismissable fade show" role="alert">
+            {{ message }}
+            <button id="closeButton" type="button" class="close" data-dismiss="alert">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          {% else %}
+          <div class="alert alert-success alter-dismissable fade show" role="alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endwith %}
         </div>
 
-        <!-- Gender -->
-        <div class="col-md-6">
-            <label for="gender" class="form-label">Gender<span class="required">*</span></label>
-            <label>&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="1">
-                &nbsp;Male</label>
-            <label>&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="0">
-                &nbsp;Female</label>
+        <div class="about-desktop-version">
+          <img alt="Vector5242" src="{{ url_for('static', filename='playground_assets/vector5242-uu5l.svg') }}"
+            class="about-vector07" />
+          <div class="about-frame39699">
+            <div class="about-group39691">
+              <span class="about-text062">
+                <span>
+                  Analyze your Credit Risk and Approve your Loan now !!
+                </span>
+              </span>
+              <span class="about-text064">
+                <span>Get Started here,</span>
+              </span>
+              <a href="./loan-approval" class="about-navlink">
+                <div class="about-group39731">
+                  <span class="about-text066"><span>Get Started</span></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <a href="./loan-approval" class="about-text068">
+            <span>Loan Approval</span>
+          </a>
+          <a href="/" class="about-text070"><span>Home</span></a>
+          <a href="./about" class="about-text072"><span>About</span></a>
+          <a href="./contact" class="about-text074"><span>Contact</span></a>
+          <a href="https://github.com/SannketNikam/Credit-Risk-Analysis" class="about-text076">
+            <span>Source Code</span>
+          </a>
+          <div class="about-frame39733">
+            <div class="about-group39729">
+              <img alt="Vector5354" src="{{ url_for('static', filename='playground_assets/vector5354-t0de.svg') }}"
+                class="about-vector08" />
+              <span class="about-text078"><span>How</span></span>
+              <span class="about-text080"><span>works</span></span>
+              <span class="about-text082">?</span>
+            </div>
+            <div class="about-frame39732">
+              <img alt="fluentwalletcreditcard20regular5355"
+                src="{{ url_for('static', filename='playground_assets/fluentwalletcreditcard20regular5355-uhwb.svg') }}"
+                class="about-fluentwalletcreditcard20regular" />
+              <div class="about-frame39731">
+                <span class="about-text083">
+                  <span>Data Collection</span>
+                </span>
+                <span class="about-text085">
+                  <span>
+                    Credito gather relevant data on the borrower, including
+                    financial statements, credit history, repayment capacity,
+                    market conditions, and other pertinent information. This
+                    data is collected through various sources, such as
+                    financial statements, credit reports, credit applications,
+                    and borrower-provided information.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="about-frame39735">
+            <img alt="fluentwalletcreditcard20regular5756"
+              src="{{ url_for('static', filename='playground_assets/fluentwalletcreditcard20regular5756-1zc5.svg') }}"
+              class="about-fluentwalletcreditcard20regular1" />
+            <div class="about-frame39734">
+              <span class="about-text087"><span>Data Analysis</span></span>
+              <span class="about-text089">
+                <span>
+                  Credito analyze the collected data using analytical tools
+                  and techniques to assess the credit risk profile of the
+                  borrower. This may involve evaluating financial ratios,
+                  credit scores, credit ratings, market trends, and other
+                  relevant indicators to determine the borrower's financial
+                  health, creditworthiness, and potential risks.
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="about-frame39737">
+            <img alt="fluentwalletcreditcard20regular5756"
+              src="{{ url_for('static', filename='playground_assets/fluentwalletcreditcard20regular5756-79ww.svg') }}"
+              class="about-fluentwalletcreditcard20regular2" />
+            <div class="about-frame39736">
+              <span class="about-text091"><span>Decision Making</span></span>
+              <span class="about-text093">
+                <span>
+                  Based on the Credito findings and recommendations, lenders
+                  make informed decisions on loan approvals, credit limits,
+                  interest rates, and other credit-related terms and
+                  conditions.
+                </span>
+              </span>
+            </div>
+          </div>
+
+          <div class="about-frame39730">
+            <div class="about-group39728">
+              <img alt="Vector5353" src="{{ url_for('static', filename='playground_assets/vector5353-9kwhm.svg') }}"
+                class="about-vector09" />
+              <span class="about-text095"><span>What is</span></span>
+              <span class="about-text097">?</span>
+            </div>
+            <div class="about-frame39729">
+              <img alt="fluentwalletcreditcard20regular5755"
+                src="{{ url_for('static', filename='playground_assets/fluentwalletcreditcard20regular5755-4bmua.svg') }}"
+                class="about-fluentwalletcreditcard20regular3" />
+              <span class="about-text098">
+                <span>
+                  Credito is a systematic process that financial institutions
+                  and lenders use to assess the creditworthiness of borrowers,
+                  which involves evaluating their ability to repay loans or
+                  meet credit obligations. This analysis typically includes a
+                  thorough examination of various factors, such as the
+                  financial health of the borrower, their credit history,
+                  repayment capacity, market conditions, and other relevant
+                  information.
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="about-frame39739">
+            <div class="about-group39730">
+              <img alt="Vector5757" src="{{ url_for('static', filename='playground_assets/vector5757-cjtj.svg') }}"
+                class="about-vector10" />
+              <span class="about-text100"><span>Who made</span></span>
+              <span class="about-text102"><span>possible !</span></span>
+            </div>
+            <div class="about-frame39738">
+              <img alt="Vector5757" src="{{ url_for('static', filename='playground_assets/vector5757-xfx.svg') }}"
+                class="about-vector11" />
+              <span class="about-text104">
+                <span class="about-text105">
+                  Credito is a BBA(CA) Semester Project created by
+                </span>
+                <a href="https://github.com/SannketNikam"><span class="about-text106">Sanket Nikam</span></a>
+                <span class="about-text107">and</span>
+                <a href="https://github.com/Atharshhhh" target="_blank" rel="noreferrer noopener" class="about-link">
+                  Atharsh Bodke
+                </a>
+                <span class="about-text108">.</span>
+              </span>
+            </div>
+          </div>
+          <div class="about-frame39702">
+            <div class="about-footer">
+              <span class="about-text109">
+                <span>
+                  Looking to find out more? Join our Team now. Get in touch
+                  with us.
+                </span>
+              </span>
+              <div class="about-services-footer1">
+                <span class="about-text111"><span>Company</span></span>
+                <a href="./loan-approval" class="about-text113">
+                  <span>Loan Approval</span>
+                </a>
+                <a href="https://github.com/SannketNikam/Credit-Risk-Analysis" class="about-text115"><span>Source
+                    Code</a></span></span>
+              </div>
+              <div class="about-get-help1">
+                <span class="about-text117"><span>Pages</span></span>
+                <a href="/" class="about-text119">
+                  <span>Home</span>
+                </a>
+                <a href="./about" class="about-text121">
+                  <span>About us</span>
+                </a>
+                <a href="./contact" class="about-text123">
+                  <span>Contact</span>
+                </a>
+              </div>
+              <div class="about-frame11501">
+                <span class="about-text125"><span>Terms</span></span>
+                <span class="about-text127"><span>Privacy</span></span>
+                <span class="about-text129"><span>Cookies</span></span>
+              </div>
+              <div class="about-socail-media1">
+                <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><img alt="Vector7116"
+                    src="{{ url_for('static', filename='playground_assets/vector7116-hmf8.svg') }}"
+                    class="about-vector12" /></a>
+                <img alt="IconLucideIcon7116"
+                  src="{{ url_for('static', filename='playground_assets/iconlucideicon7116-snaq.svg') }}"
+                  class="about-icon-lucide-icon1" />
+                <img alt="bxlgmail7117"
+                  src="{{ url_for('static', filename='playground_assets/bxlgmail7117-5t5m.svg') }}"
+                  class="about-bxlgmail1" />
+              </div>
+              <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-ij88.svg') }}"
+                class="about-vector13" />
+              <span class="about-text131"><span>Credito 2023</span></span>
+              <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-zds8.svg') }}"
+                class="about-vector14" />
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</body>
 
-        <!-- Married -->
-        <div class="col-md-6">
-            <label>Married<span class="required">*</span></label>
-            &nbsp;&nbsp;&nbsp;<label><input type="radio" value='1' name="married" required />
-                Yes</label>
-            &nbsp;&nbsp;&nbsp;<label><input type="radio" value="0" name="married" required />
-                No</label>
-        </div>
-
-        <!-- Education -->
-        <div class="col-md-3 mt-5">
-            <p>Education<span class="required">*</span></p>
-            <label><input type="radio" value='1' name="education" required /> <span>Graduate</span></label>
-            <label><input type="radio" value="0" name="education" required /> <span>Non Graduate</span></label>
-        </div>
-
-        <!-- Self Employed -->
-        <div class="col-md-3 mt-5">
-            <p>Self_Employed<span class="required">*</span></p>
-            <label><input type="radio" value='1' name="selfEmployed" required /> <span>Yes</span></label>
-            &nbsp;&nbsp;
-            <label><input type="radio" value="0" name="selfEmployed" required /> <span>No</span></label>
-        </div>
-
-        <!-- Credit History -->
-        <div class="col-md-3 mt-5">
-            <p>Credit_History<span class="required">*</span></p>
-            <label><input type="radio" value='1' name="credit" required /> <span>Yes</span></label>
-            &nbsp;&nbsp;
-            <label><input type="radio" value="0" name="credit" required /> <span>No</span></label>
-        </div>
-
-        <!-- Property Area -->
-        <div class="col-md-3 mt-5">
-            <p>Property_Area<span class="required">*</span></p>
-            <label><input type="radio" value='0' name="parea" required /> <span>Rural</span></label><br>
-            <label><input type="radio" value="1" name="parea" required /> <span>Semiurban</span></label><br>
-            <label><input type="radio" value="2" name="parea" required /> <span>Urban</span></label>
-        </div>
-
-        <!-- Dependants -->
-        <p class="mt-1">Dependants<span class="required">*</span></p>
-        <select class="form-control col-md-12" name='dependants'>
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3+</option>
-        </select>
-
-        <!-- Total Income -->
-        <div class="col-md-4 mt-5">
-            <label class="form-label"> Total Income<span class="required">*</span></label>
-            <input class="form-control" type="number" name="totalIncome" placeholder="Total Income" required />
-        </div>
-
-        <!-- Loan Term -->
-        <div class="col-md-4 mt-5">
-            <label class="form-label"> Loan Term<span class="required">*</span></label>
-            <input class="form-control" type="number" name="amountTerm" placeholder="Loan Term" required />
-        </div>
-
-        <!-- Loan Amount -->
-        <div class="col-md-4 mt-5">
-            <label class="form-label"> Loan Amount<span class="required">*</span></label>
-            <input class="form-control" type="number" name="loanAmount" placeholder="Loan Amount" required />
-        </div>
-
-        <!-- Submit -->
-        <div class="d-grid gap-2 col-6 mx-auto mt-5">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </form>
-</div>
-
-{% endblock body %}
+</html>

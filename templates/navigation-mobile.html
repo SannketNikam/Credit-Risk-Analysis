@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <title>Credito</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏦</text></svg>">
+
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+  </style>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/style.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/about.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/home.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/contact.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/loan-approval.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/navigation-mobile.css') }}" />
+
+  <!-- Javascript -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='javascript/script.js') }}" />
+</head>
+
+<body>
+  <div>
+
+    <div class="navigation-mobile-container" data-visible="true">
+      <div class="navigation-mobile-navigation-mobile">
+        <a href="/"><img alt="charmcross7115"
+            src="{{ url_for('static', filename='playground_assets/charmcross7115-mxv9.svg') }}"
+            class="navigation-mobile-charmcross" /></a>
+        <img alt="Line1857115" src="{{ url_for('static', filename='playground_assets/line1857115-vydp.svg') }}"
+          class="navigation-mobile-line185" />
+        <a href="/"><span class="navigation-mobile-text"><span>Home</span></span></a>
+        <a href="./loan-approval"><span class="navigation-mobile-text02">
+            <span>Loan Approval</span></span></a>
+        <a href="./about"><span class="navigation-mobile-text04"><span>About</span></span></a>
+        <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><span
+            class="navigation-mobile-text06"><span>Source Code</span></span></a>
+        <a href="./contact"><img alt="Rectangle46407115"
+            src="{{ url_for('static', filename='playground_assets/rectangle46407115-lz7m-200h.png') }}"
+            class="navigation-mobile-rectangle4640" />
+          <span class="navigation-mobile-text08"><span>Contact Us</span></span></a>
+        <img alt="Vector7115" src="{{ url_for('static', filename='playground_assets/vector7115-5jzl.svg') }}"
+          class="navigation-mobile-vector" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

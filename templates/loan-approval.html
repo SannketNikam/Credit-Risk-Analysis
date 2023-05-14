@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <title>Credito - Loan Approval</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏦</text></svg>">
+
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+
+    #submitBtn {
+      padding-top: 10px;
+    }
+  </style>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/style.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/loan-approval.css') }}" />
+
+  <!-- Javascript -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='javascript/script.js') }}" />
+</head>
+
+<body>
+  <div>
+    <form action="{{ url_for('about') }}" method="POST">
+      <div class="loan-approval-container">
+        <div class="loan-approval-loan-approval-mobile">
+          <div class="loan-approval-mobile-version">
+
+            <a href="./navigation-mobile"><img alt="mdihamburgermenu7117"
+                src="{{ url_for('static', filename='playground_assets/mdihamburgermenu7117-ul7x.svg') }}"
+                class="loan-approval-mdihamburgermenu" /></a>
+            <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-vlq8.svg') }}"
+              class="loan-approval-vector" />
+            <div class="loan-approval-group39947">
+              <img alt="Rectangle45027117"
+                src="{{ url_for('static', filename='playground_assets/rectangle45027117-5hefu.svg') }}"
+                class="loan-approval-rectangle4502" />
+              <div class="loan-approval-frame1150">
+                <span class="loan-approval-text"><span>Terms</span></span>
+                <span class="loan-approval-text002"><span>Privacy</span></span>
+                <span class="loan-approval-text004"><span>Cookies</span></span>
+              </div>
+              <img alt="Line1677117" src="{{ url_for('static', filename='playground_assets/line1677117-4g6i.svg') }}"
+                class="loan-approval-line167" />
+              <div class="loan-approval-group39800">
+                <span class="loan-approval-text006">
+                  <span>Credito 2023</span>
+                </span>
+                <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-11ci.svg') }}"
+                  class="loan-approval-vector1" />
+              </div>
+            </div>
+            <div class="loan-approval-services-footer">
+              <span class="loan-approval-text008"><span>Company</span></span>
+              <a href="./loan-approval" class="loan-approval-text010">
+                <span>Loan Approval</span>
+                </span></a>
+              <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><span class="loan-approval-text012">
+                  <span>Source Code</span></a>
+              </span>
+            </div>
+            <div class="loan-approval-get-help">
+              <span class="loan-approval-text014"><span>Pages</span></span>
+              <a href="/"><span class="loan-approval-text016"><span>Home</span></span></a>
+              <a href="./about"><span class="loan-approval-text018"><span>About us</span></span></a>
+              <a href="./contact"><span class="loan-approval-text020"><span>Contact</span></span></a>
+            </div>
+            <span class="loan-approval-text022">
+              <span>
+                Looking to find out more? Join our Team now. Get in touch with
+                us.
+              </span>
+            </span>
+            <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-izgf.svg') }}"
+              class="loan-approval-vector2" />
+            <div class="loan-approval-socail-media">
+              <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-268x.svg') }}"
+                class="loan-approval-vector3" />
+              <img alt="IconLucideIcon7117"
+                src="{{ url_for('static', filename='playground_assets/iconlucideicon7117-70vn.svg') }}"
+                class="loan-approval-icon-lucide-icon" />
+              <img alt="Ellipse497117"
+                src="{{ url_for('static', filename='playground_assets/ellipse497117-ekc-200h.png') }}"
+                class="loan-approval-ellipse49" />
+              <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><img alt="Ellipse507118"
+                  src="{{ url_for('static', filename='playground_assets/ellipse507118-k5d9-200h.png') }}"
+                  class="loan-approval-ellipse50" /></a>
+              <img alt="Ellipse517118"
+                src="{{ url_for('static', filename='playground_assets/ellipse517118-791-200h.png') }}"
+                class="loan-approval-ellipse51" />
+              <img alt="bxlgmail7118" src="{{ url_for('static', filename='playground_assets/bxlgmail7118-1cg.svg') }}"
+                class="loan-approval-bxlgmail" />
+            </div>
+            <span class="loan-approval-text024">
+              <span>Fill your details for accurate analysis</span>
+            </span>
+            <img alt="Rectangle647118"
+              src="{{ url_for('static', filename='playground_assets/rectangle647118-vnv-400w.png') }}"
+              class="loan-approval-rectangle64" />
+            <span class="loan-approval-text026"><span>Our Product</span></span>
+            <span class="loan-approval-text028">
+              <span>Credit Risk Modeling</span>
+            </span>
+            <span class="loan-approval-text030">
+              <span>
+                <span>Predictive Analysis for Financial Success</span>
+                <br />
+                <span>
+                  Data-driven Insights for Sound Financial Decision-making
+                </span>
+              </span>
+            </span>
+
+          </div>
+          <div class="loan-approval-desktop-version">
+            <img alt="Ellipse524923"
+              src="{{ url_for('static', filename='playground_assets/ellipse524923-b4m-200h.png') }}"
+              class="loan-approval-ellipse52" />
+            <img alt="Ellipse535223"
+              src="{{ url_for('static', filename='playground_assets/ellipse535223-nd1-200h.png') }}"
+              class="loan-approval-ellipse53" />
+            <img alt="Ellipse545230"
+              src="{{ url_for('static', filename='playground_assets/ellipse545230-fwbd-200h.png') }}"
+              class="loan-approval-ellipse54" />
+            <a href="./loan-approval" class="loan-approval-text097">
+              <span>Loan Approval</span>
+            </a>
+            <a href="/" class="loan-approval-text099">
+              <span>Home</span>
+            </a>
+            <a href="./about" class="loan-approval-text101">
+              <span>About</span>
+            </a>
+            <a href="./contact" class="loan-approval-text103">
+              <span>Contact</span>
+            </a>
+            <a href="/" class="loan-approval-text105">
+              <span>Source Code</span>
+            </a>
+            <img alt="Vector2417" src="{{ url_for('static', filename='playground_assets/vector2417-iuod.svg') }}"
+              class="loan-approval-vector4" />
+            <img alt="Rectangle642417"
+              src="{{ url_for('static', filename='playground_assets/rectangle642417-dyj6-400h.png') }}"
+              class="loan-approval-rectangle641" />
+            <div class="loan-approval-frame39727">
+              <span class="loan-approval-text107">
+                <span>Our Product</span>
+              </span>
+              <span class="loan-approval-text109">
+                <span>Credit Risk Modeling</span>
+              </span>
+              <span class="loan-approval-text111">
+                <span>
+                  <span>Predictive Analysis for Financial Success</span>
+                  <br />
+                  <span>
+                    Data-driven Insights for Sound Financial Decision-making
+                  </span>
+                </span>
+              </span>
+            </div>
+            <img alt="Rectangle4072744"
+              src="{{ url_for('static', filename='playground_assets/rectangle4072744-zpcn.svg') }}"
+              class="loan-approval-rectangle407" />
+            <img alt="Rectangle4123018"
+              src="{{ url_for('static', filename='playground_assets/rectangle4123018-81w-200h.png') }}"
+              class="loan-approval-rectangle412" />
+
+          </div>
+          <div class="loan-approval-frame397161">
+            <span class="loan-approval-text130"><label for="rural">Rural</label></span>
+            <div class="loan-approval-group3970607">
+              <input id="rural" value="0" name="parea" type="radio" class="loan-approval-ellipse5016">
+
+            </div>
+          </div>
+          <div class="loan-approval-frame397081">
+            <label for="marriedyes" class="loan-approval-text132"><span>Yes</span></span>
+              <div class="loan-approval-group3970608">
+                <input type="radio" id="1" name="married" value="1" class="loan-approval-ellipse5017">
+
+              </div>
+          </div>
+          <div class="loan-approval-frame397121">
+            <label for="self-yes" class="loan-approval-text134"><span>Yes</span></label>
+            <input type="radio" id="1" value="1" name="selfEmployed" class="loan-approval-ellipse5018">
+
+          </div>
+          <div class="loan-approval-frame397101">
+            <label for="graduate" class="loan-approval-text136"><span>Graduate</span></label>
+            <div class="loan-approval-group3970610">
+              <input type="radio" id="1" name="education" value="1" class="loan-approval-ellipse5019">
+
+            </div>
+          </div>
+          <div class="loan-approval-frame397131">
+            <label for="credityes" class="loan-approval-text138"><span>Yes</span></label>
+            <div class="loan-approval-group3970611">
+              <input type="radio" id="credityes" name="credit" value="1" class="loan-approval-ellipse5020">
+
+            </div>
+          </div>
+          <div class="loan-approval-frame397051">
+
+            <input type="radio" id="1" name="gender" value="1" class="loan-approval-group3970606">
+            <label for="male" class="loan-approval-text128"><span>Male</span></label>
+
+          </div>
+          <div class="loan-approval-frame397061">
+
+            <input class="loan-approval-ellipse5021" type="radio" id="0" name="gender" value="0">
+            <label for="female" class="loan-approval-text140"><span>Female</span></span>
+
+          </div>
+          <div class="loan-approval-frame397171">
+            <span class="loan-approval-text142">
+              <label for="semiurban">Semi - Urban</label>
+            </span>
+            <input id="urban" value="1" name="parea" type="radio" class="loan-approval-ellipse5022">
+
+          </div>
+          <div class="loan-approval-frame397181">
+            <label for="urban" class="loan-approval-text154"><span>Urban</span></label>
+            <input id="urban" value="2" name="parea" type="radio" class="loan-approval-ellipse5028">
+          </div>
+          <div class="loan-approval-frame397091">
+            <label for="marriedyes" class="loan-approval-text144"><span>No</span></span>
+              <input type="radio" id="0" name="married" value="0" class="loan-approval-ellipse5023">
+          </div>
+          <div class="loan-approval-frame397141">
+            <label for="self-no" class="loan-approval-text146"><span>No</span></span>
+              <input type="radio" id="0" value="0" name="selfEmployed" class="loan-approval-ellipse5024">
+
+          </div>
+          <div class="loan-approval-frame397111">
+            <span class="loan-approval-text148">
+              <label for="graduate">Non Graduate</label>
+            </span>
+            <input id="graduate" value="0" name="education" type="radio" class="loan-approval-ellipse5025">
+
+          </div>
+          <div class="loan-approval-frame397151">
+            <label for="credithistory" class="loan-approval-text150"><span>No</span></label>
+            <input type="radio" id="creditno" name="credit" value="0" type="radio" class="loan-approval-ellipse5026">
+
+          </div>
+          <div class="loan-approval-frame397071">
+            <label for="others" class="loan-approval-text152"><span>Others</span></label>
+            <input type="radio" id="0" name="gender" value="0" type="radio" class="loan-approval-ellipse5027">
+
+          </div>
+
+          <span class="loan-approval-text156"><span>Gender ?</span></span>
+          <span class="loan-approval-text158">
+            <span>Property Area</span>
+          </span>
+          <span class="loan-approval-text160">
+            <span>Are you Married ?</span>
+          </span>
+          <span class="loan-approval-text162">
+            <span>Self Employed</span>
+          </span>
+          <span class="loan-approval-text164"><span>Education</span></span>
+          <span class="loan-approval-text166">
+            Credit History
+          </span>
+          <div class="loan-approval-frame397031">
+            <input class="loan-approval-rectangle13510" placeholder="Ex: John" name="firstName" type="text" required>
+
+            <span class="loan-approval-text168"><span>First Name</span></span>
+          </div>
+          <div class="loan-approval-frame397041">
+            <input class="loan-approval-rectangle13511" placeholder="Ex: Doe" name="lastName" type="text" required>
+
+            <span class="loan-approval-text172"><span>Last Name</span></span>
+          </div>
+          <img alt="Rectangle4083014"
+            src="{{ url_for('static', filename='playground_assets/rectangle4083014-enkx-200h.png') }}"
+            class="loan-approval-rectangle408" />
+          <img alt="Rectangle4133019"
+            src="{{ url_for('static', filename='playground_assets/rectangle4133019-o4l9-200h.png') }}"
+            class="loan-approval-rectangle413" />
+          <span class="loan-approval-text176">
+            <span>Fill your details for accurate analysis</span>
+          </span>
+          <button type="submit" id="submitBtn" class="loan-approval-frame396981">Submit</button>
+          <!--  BACKEND INTEGRETION -->
+          <div class="numberfill">
+            <div class="loan-approval-frame39719">
+              <select class="loan-approval-rectangle13507" name='dependants' required>
+                <option name='dependants' value="0" required>0</option>
+                <option name='dependants' value="1" required>1</option>
+                <option name='dependants' value="2" required>2</option>
+                <option name='dependants' value="3" required>3+</option>
+              </select>
+
+              <span class="loan-approval-text116"><span>Dependants</span></span>
+            </div>
+            <div class="loan-approval-frame397201">
+              <input type="number" name="totalIncome" class="loan-approval-rectangle13507" placeholder="0">
+
+              <span class="loan-approval-text119">
+                <span>Total Income</span>
+              </span>
+            </div>
+            <div class="loan-approval-frame397211">
+              <input type="number" name="amountTerm" placeholder="0" class="loan-approval-rectangle13508">
+
+              <span class="loan-approval-text122"><span>Loan Term</span></span>
+            </div>
+            <div class="loan-approval-frame397221">
+              <span class="loan-approval-text125">
+                <span>Loan Amount</span>
+                <input type="number" name="loanAmount" placeholder="0" class="loan-approval-rectangle13508">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="loan-approval-frame39702">
+          <div class="loan-approval-footer">
+            <span class="loan-approval-text180">
+              <span>
+                Looking to find out more? Join our Team now. Get in touch
+                with us.
+              </span>
+            </span>
+            <div class="loan-approval-services-footer1">
+              <span class="loan-approval-text182">
+                <span>Company</span>
+              </span>
+              <a href="./loan-approval" class="loan-approval-text184">
+                <span>Loan Approval</span>
+              </a>
+              <a href="https://github.com/SannketNikam/Credit-Risk-Analysis" class="loan-approval-text186">
+                <span>Source Code</span></a>
+              </span>
+            </div>
+            <div class="loan-approval-get-help1">
+              <span class="loan-approval-text188"><span>Pages</span></span>
+              <a href="/" class="loan-approval-text190">
+                <span>Home</span>
+              </a>
+              <a href="./about" class="loan-approval-text192">
+                <span>About us</span>
+              </a>
+              <a href="./contact" class="loan-approval-text194">
+                <span>Contact</span>
+              </a>
+            </div>
+            <div class="loan-approval-frame11501">
+              <span class="loan-approval-text196"><span>Terms</span></span>
+              <span class="loan-approval-text198">
+                <span>Privacy</span>
+              </span>
+              <span class="loan-approval-text200">
+                <span>Cookies</span>
+              </span>
+            </div>
+            <div class="loan-approval-socail-media1">
+              <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><img alt="Vector7116"
+                  src="{{ url_for('static', filename='playground_assets/vector7116-y0n.svg') }}"
+                  class="loan-approval-vector5" /></a>
+              <img alt="IconLucideIcon7116"
+                src="{{ url_for('static', filename='playground_assets/iconlucideicon7116-kqo.svg') }}"
+                class="loan-approval-icon-lucide-icon1" />
+              <img alt="bxlgmail7116" src="{{ url_for('static', filename='playground_assets/bxlgmail7116-slf.svg') }}"
+                class="loan-approval-bxlgmail1" />
+            </div>
+            <img alt="Vector7116" src="{{ url_for('static', filename='playground_assets/vector7116-7rhp.svg') }}"
+              class="loan-approval-vector6" />
+            <span class="loan-approval-text202">
+              <span>Credito 2023</span>
+            </span>
+            <img alt="Vector7116" src="{{ url_for('static', filename='playground_assets/vector7116-hdua.svg') }}"
+              class="loan-approval-vector7" />
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </form>
+  </div>
+</body>
+
+</html>

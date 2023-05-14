@@ -1,7 +1,348 @@
-{% extends 'base.html' %}
-{% block title %} Contact {% endblock title %}
-{% block body %}
+<!DOCTYPE html>
+<html lang="english">
 
-<!-- LinkedIn -->
+<head>
+  <title>Credito - Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
 
-{% endblock body %}
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏦</text></svg>">
+
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+  </style>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/style.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/contact.css') }}" />
+</head>
+
+<body>
+  <div>
+
+    <!-- Message -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    {% if category == 'error' %}
+    <div class="alert alert-danger alter-dismissable fade show" role="alert">
+      {{ message }}
+      <button type="button" class="close" data-dismiss="alert">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% else %}
+    <div class="alert alert-success alter-dismissable fade show" role="alert">
+      {{ message }}
+      <button type="button" class="close" data-dismiss="alert">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <div>
+
+      <div class="contact-container">
+        <div class="contact-contact-mobile">
+          <div class="contact-mobile-version">
+            <form action="{{ url_for('contact') }}" method="POST">
+              <a href="./navigation-mobile"><img alt="mdihamburgermenu7730"
+                  src="{{ url_for('static', filename='playground_assets/mdihamburgermenu7730-ba4.svg') }}"
+                  class="contact-mdihamburgermenu" /></a>
+              <img alt="Vector7730" src="{{ url_for('static', filename='playground_assets/vector7730-hmwz.svg') }}"
+                class="contact-vector" />
+              <div class="contact-group39947">
+                <img alt="Rectangle45027731"
+                  src="{{ url_for('static', filename='playground_assets/rectangle45027731-vchr.svg') }}"
+                  class="contact-rectangle4502" />
+                <div class="contact-frame1150">
+                  <span class="contact-text"><span>Terms</span></span>
+                  <span class="contact-text002"><span>Privacy</span></span>
+                  <span class="contact-text004"><span>Cookies</span></span>
+                </div>
+                <img alt="Line1677731" src="{{ url_for('static', filename='playground_assets/line1677731-3ikq.svg') }}"
+                  class="contact-line167" />
+                <div class="contact-group39800">
+                  <span class="contact-text006"><span>Credito 2023</span></span>
+                  <img alt="Vector7731" src="{{ url_for('static', filename='playground_assets/vector7731-ih7q.svg') }}"
+                    class="contact-vector1" />
+                </div>
+              </div>
+              <div class="contact-services-footer">
+                <span class="contact-text008"><span>Company</span></span>
+                <span class="contact-text010"><span>Loan Approval</span></span>
+                <span class="contact-text012"><span>Source Code</span></span>
+              </div>
+              <div class="contact-get-help">
+                <span class="contact-text014"><span>Pages</span></span>
+                <span class="contact-text016"><span>Home</span></span>
+                <span class="contact-text018"><span>About us</span></span>
+                <span class="contact-text020"><span>Contact</span></span>
+              </div>
+              <span class="contact-text022">
+                <span>
+                  Looking to find out more? Join our Team now. Get in touch with
+                  us.
+                </span>
+              </span>
+              <img alt="Vector7733" src="{{ url_for('static', filename='playground_assets/vector7733-101s.svg') }}"
+                class="contact-vector2" />
+              <div class="contact-socail-media">
+                <img alt="Vector7733" src="{{ url_for('static', filename='playground_assets/vector7733-ywr.svg') }}"
+                  class="contact-vector3" />
+                <img alt="IconLucideIcon7733"
+                  src="{{ url_for('static', filename='playground_assets/iconlucideicon7733-qs4r.svg') }}"
+                  class="contact-icon-lucide-icon" />
+                <img alt="bxlgmail7733" src="{{ url_for('static', filename='playground_assets/bxlgmail7733-7hj.svg') }}"
+                  class="contact-bxlgmail" />
+              </div>
+              <span class="contact-text024"><span>Contact us</span></span>
+              <span class="contact-text026">
+                <span>
+                  Get in touch with us , Feedbacks will be appreciated !
+                </span>
+              </span>
+              <!-- <div class="contact-group39703">
+              <input type="text" placeholder="Ex: John" class="contact-rectangle135">
+              <span class="contact-text028"><span>First Name</span></span>
+            </div> -->
+
+              <!-- <div class="contact-group1000002627">
+              
+              <input type="text" class="contact-rectangle13501" placeholder="Ex: Doe">
+              <span class="contact-text032"><span>Last Name</span></span>
+            </div> -->
+
+              <!--  <input type="submit" class="contact-frame39698">  BACKEND INTEGRETION -->
+
+
+              <!-- <div class="contact-group1000002626">
+              <img
+                alt="Rectangle1357743"
+                src="{{ url_for('static', filename='playground_assets/rectangle1357743-ixne-200h.png') }}"
+                class="contact-rectangle13502"
+              />
+              <input type="tel" placeholder="+91********" class="contact-rectangle13502" name="phone" pattern="[0-9]{10}" required>
+              <span class="contact-text038"><span>Phone</span></span>
+            </div> -->
+              <!-- <div class="contact-group1000002629">
+              <div class="contact-group39716">
+
+                <select style="color: var(--dl-color-gray-black);" class="contact-rectangle13503" name="Subject">
+                  <option hidden  value="sub1"></option>
+                  <option value="sub2">For Feedback Purpose</option>
+                  <option style="color: var(--dl-color-gray-black);"value="sub3">Issue Related</option>
+                  <option value="sub4">Other Reasons</option>
+                  </select>
+
+                <img
+                  alt="Rectangle1357744"
+                  src="{{ url_for('static', filename='playground_assets/rectangle1357744-s33.svg') }}"
+                  class="contact-rectangle13503"
+                />
+
+              </div>
+              <span class="contact-text044"><span>Subject</span></span>
+            </div> -->
+              <!-- <div class="contact-group39726">
+              <div class="contact-group397161">
+                <input class="contact-rectangle13504" placeholder="Write something here.." type ="text" required>
+                </span>
+              </div>
+              <span class="contact-text048"><span>Message</span></span>
+            </div> -->
+              <div class="contact-group1000002621">
+                <div class="contact-group40251">
+                  <img alt="Rectangle44727754"
+                    src="{{ url_for('static', filename='playground_assets/rectangle44727754-tut-400w.png') }}"
+                    class="contact-rectangle4472" />
+                  <div class="contact-maskgroup"></div>
+                </div>
+                <a href="./contact">
+                  <div class="contact-group1000002620">
+                    <div class="contact-group39809">
+                      <span class="contact-text050"><span>Get Started</span></span>
+                    </div>
+                </a>
+                <span class="contact-text052">
+                  <span>Get Started here,</span>
+                </span>
+                <span class="contact-text054">
+                  <span>
+                    Analyze your Credit Risk and Approve your Loan now !!
+                  </span>
+                </span>
+              </div>
+          </div>
+
+        </div>
+
+
+        <img alt="Vector4950" src="{{ url_for('static', filename='playground_assets/vector4950-7zcc.svg') }}"
+          class="contact-vector4" />
+        <img alt="Rectangle4074953"
+          src="{{ url_for('static', filename='playground_assets/rectangle4074953-ixne.svg') }}"
+          class="contact-rectangle407" />
+        <img alt="Rectangle4124954"
+          src="{{ url_for('static', filename='playground_assets/rectangle4124954-0pk-200h.png') }}"
+          class="contact-rectangle412" />
+        <div class="contact-group39703">
+          <input class="contact-rectangle13505" placeholder="John Doe" name="fullname" type="text" required>
+
+          <span class="contact-text056"><span>Full Name</span></span>
+        </div>
+        <div class="contact-group39719">
+          <input class="contact-rectangle13506" placeholder="+91********" name="phone" type="tel" id="phone"
+            name="phone" pattern="[0-9]{10}" required>
+
+
+          <span class="contact-text060"><span>Phone</span></span>
+          </span>
+        </div>
+        <div class="contact-group39725">
+          <div class="contact-group397162">
+            <select style="color: var(--dl-color-gray-black);" class="contact-rectangle13507" name="subject">
+              <option hidden value="sub1"></option>
+              <option value="For Feedback Purpose">For Feedback Purpose</option>
+              <option style="color: var(--dl-color-gray-black);" value="Issue Related">Issue Related</option>
+              <option value="Other Reasons">Other Reasons</option>
+            </select>
+          </div>
+          <span class="contact-text066"><span>Subject</span></span>
+        </div>
+        <div class="contact-group397261">
+          <div class="contact-group397163">
+            <input class="contact-rectangle13508" placeholder="Write something here.." type="text" name="message"
+              required>
+
+          </div>
+          <span class="contact-text070"><span>Message</span></span>
+        </div>
+        <div class="contact-group39704">
+          <input class="contact-rectangle13505" placeholder="e.g John@gmail.com" type="email" name="email" required>
+
+          <span class="contact-text072"><span>Email</span></span>
+
+          </span>
+        </div>
+        <img alt="Rectangle4084916"
+          src="{{ url_for('static', filename='playground_assets/rectangle4084916-5uqe-200h.png') }}"
+          class="contact-rectangle408" />
+        <img alt="Rectangle4134916"
+          src="{{ url_for('static', filename='playground_assets/rectangle4134916-uym-200h.png') }}"
+          class="contact-rectangle413" />
+        <div class="contact-frame39740">
+          <span class="contact-text076"><span>Contact us</span></span>
+          <span class="contact-text078">
+            <span>
+              Get in touch with us , Feedbacks will be appreciated !
+            </span>
+          </span>
+        </div>
+        <input type="submit" class="contact-group39698"> <!-- BACKEND INTEGRETION -->
+
+        <div class="header">
+          <a href="./loan-approval" class="contact-text082"><span>Loan Approval</span></a>
+          <a href="/" class="contact-text084"><span>Home</span></a>
+          <a href="./about" class="contact-text086"><span>About</span></a>
+          <a href="./contact" class="contact-text088"><span>Contact</span></a>
+          <a href="https://github.com/SannketNikam/Credit-Risk-Analysis" class="contact-text090">
+            <span>Source Code</span>
+          </a>
+        </div>
+        <div class="contact-frame39699">
+          <div class="contact-group39691">
+            <span class="contact-text092">
+              <span>
+                Analyze your Credit Risk and Approve your Loan now !!
+              </span>
+            </span>
+            <span class="contact-text094">
+              <span>Get Started here,</span>
+            </span>
+            <a href="./loan-approval" class="contact-group39731">
+              <span class="contact-text096"><span>Get Started</span></span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-frame39702">
+          <div class="contact-footer">
+            <span class="contact-text098">
+              <span>
+                Looking to find out more? Join our Team now. Get in touch
+                with us.
+              </span>
+            </span>
+            <div class="contact-services-footer1">
+              <span class="contact-text100"><span>Company</span></span>
+              <a href="./loan-approval"><span class="contact-text102">
+                  <span>Loan Approval</span></a>
+              </span>
+              <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><span class="contact-text104"><span>Source
+                    Code</span></span></a>
+            </div>
+            <div class="contact-get-help1">
+              <span class="contact-text106"><span>Pages</span></span>
+              <a href="/"><span class="contact-text108"><span>Home</span></span>></a>
+              <a href="./about"><span class="contact-text110"><span>About us</span></span>></a>
+              <a href="./contact"><span class="contact-text112"><span>Contact</span></span>></a>
+            </div>
+            <div class="contact-frame11501">
+              <span class="contact-text114"><span>Terms</span></span>
+              <span class="contact-text116"><span>Privacy</span></span>
+              <span class="contact-text118"><span>Cookies</span></span>
+            </div>
+            <div class="contact-socail-media1">
+              <a href="https://github.com/SannketNikam/Credit-Risk-Analysis"><img alt="Vector7117"
+                  src="{{ url_for('static', filename='playground_assets/vector7117-mni.svg') }}"
+                  class="contact-vector5" /></a>
+              <img alt="IconLucideIcon7117"
+                src="{{ url_for('static', filename='playground_assets/iconlucideicon7117-xz96.svg') }}"
+                class="contact-icon-lucide-icon1" />
+              <img alt="bxlgmail7117" src="{{ url_for('static', filename='playground_assets/bxlgmail7117-xqf.svg') }}"
+                class="contact-bxlgmail1" />
+            </div>
+            <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-9wxf.svg') }}"
+              class="contact-vector6" />
+            <span class="contact-text120"><span>Credito 2023</span></span>
+            <img alt="Vector7117" src="{{ url_for('static', filename='playground_assets/vector7117-z8f.svg') }}"
+              class="contact-vector7" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </form>
+  </div>
+</body>
+
+</html>
