@@ -1,0 +1,4023 @@
+body {
+  overflow-x: hidden;
+}
+
+/* .loan-approval-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+} */
+/* .loan-approval-loan-approval-mobile {
+  width: 100%;
+  height: 3359px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+} */
+/* .loan-approval-mobile-version {
+  top: 46px;
+  left: 0px;
+  width: 496px;
+  height: 3313px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+} */
+.loan-approval-mdihamburgermenu {
+  top: 46px;
+  left: 312px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.loan-approval-vector {
+  top: 46px;
+  left: 16px;
+  width: 116px;
+  height: 25px;
+  position: absolute;
+}
+
+.loan-approval-group39947 {
+  top: 2489px;
+  left: 0px;
+  width: 360px;
+  height: 870px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-rectangle4502 {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 870px;
+  position: absolute;
+}
+
+.loan-approval-frame1150 {
+  gap: 36px;
+  top: 726px;
+  left: 70px;
+  width: 220px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.loan-approval-text {
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text002 {
+  left: 78px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text004 {
+  left: 164px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-line167 {
+  top: 665px;
+  left: 16px;
+  width: 328px;
+  height: 0px;
+  position: absolute;
+}
+
+.loan-approval-group39800 {
+  top: 684px;
+  left: 126px;
+  width: 108px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-text006 {
+  left: 19px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+.loan-approval-services-footer {
+  top: 2739px;
+  left: 115px;
+  width: 130px;
+  height: 96px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-text008 {
+  left: 14px;
+  color: var(--dl-color-default-white1);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text010 {
+  top: 46px;
+  color: var(--dl-color-default-white1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text012 {
+  top: 85px;
+  left: 7px;
+  color: var(--dl-color-default-white1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-get-help {
+  top: 2933px;
+  left: 140px;
+  width: 80px;
+  height: 127px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-text014 {
+  left: 8px;
+  color: var(--dl-color-default-white1);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text016 {
+  top: 46px;
+  left: 13px;
+  color: var(--dl-color-default-white1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text018 {
+  top: 85px;
+  color: var(--dl-color-default-white1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text020 {
+  top: 124px;
+  left: 3px;
+  color: var(--dl-color-default-white1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text022 {
+  top: 2615px;
+  left: 24px;
+  color: var(--dl-color-default-white1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-vector2 {
+  top: 2543px;
+  left: 73px;
+  width: 214px;
+  height: 45px;
+  position: absolute;
+}
+
+.loan-approval-socail-media {
+  top: 3276px;
+  left: 111px;
+  width: 137px;
+  height: 34px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-vector3 {
+  top: 8px;
+  left: 63px;
+  width: 14px;
+  height: 17px;
+  position: absolute;
+}
+
+.loan-approval-icon-lucide-icon {
+  top: 7px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.loan-approval-ellipse49 {
+  top: 0px;
+  left: 103px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+.loan-approval-ellipse50 {
+  top: 0px;
+  left: 53px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+.loan-approval-ellipse51 {
+  top: 0px;
+  left: 0px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+.loan-approval-bxlgmail {
+  top: 7px;
+  left: 110px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.loan-approval-text024 {
+  top: 582px;
+  left: 15px;
+  color: var(--dl-color-default-darktext1);
+  width: 326px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-rectangle64 {
+  top: 130px;
+  left: 16px;
+  width: 328px;
+  height: 165px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.loan-approval-text026 {
+  top: 350px;
+  left: 18px;
+  color: var(--dl-color-default-primaryblue);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text028 {
+  top: 384px;
+  left: 18px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text030 {
+  top: 427px;
+  left: 18px;
+  color: var(--dl-color-default-lighttext1);
+  width: 327px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39703 {
+  top: 677px;
+  left: 16px;
+  width: 480px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle135 {
+  font-size: 16px;
+  padding-left: 20px;
+  top: 32px;
+  left: 0px;
+  width: 314px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text035 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text037 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-rectangle13501 {
+  font-size: 16px;
+  padding-left: 20px;
+  top: 32px;
+  left: 0px;
+  width: 314px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text039 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text041 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39705 ::after {
+  border-color: rgba(0, 120, 255, 1);
+}
+
+.loan-approval-text043 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group39706 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5001 {
+  top: 0px;
+  right: 50px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5101 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame39706 {
+  top: 929px;
+  left: 188px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text045 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5002 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame39707 {
+  top: 1002px;
+  left: 15px;
+  width: 157px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text047 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5003 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text049 {
+  top: 887px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39708 {
+  top: 1141px;
+  left: 16px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(105, 105, 105);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text051 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970601 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5004 {
+  top: -19px;
+  right: 58px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5102 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame39709 {
+  top: 1141px;
+  left: 188px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text053 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5005 {
+  top: 2px;
+  right: 28px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text055 {
+  top: 1101px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39710 {
+  top: 1280px;
+  left: 16px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(119, 119, 119);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text057 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970602 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5006 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5103 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame39711 {
+  top: 1280px;
+  left: 188px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text059 {
+  top: 6px;
+  left: 70px;
+  color: var(--dl-color-default-lighttext1);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5007 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text061 {
+  top: 1240px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39712 {
+  top: 1419px;
+  left: 16px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(122, 122, 122);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text063 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970603 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5008 {
+  top: 18px;
+  left: 30px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5104 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame39714 {
+  top: 1419px;
+  left: 188px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text065 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5009 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text067 {
+  top: 1379px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39713 {
+  top: 1550px;
+  left: 16px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(114, 114, 114);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text069 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970604 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5010 {
+  top: 0px;
+  right: 5px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5105 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame39715 {
+  top: 1550px;
+  left: 188px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text071 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5011 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text073 {
+  top: 1518px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39716 {
+  top: 1681px;
+  left: 16px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(121, 121, 121);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+
+}
+
+.loan-approval-text074 {
+  bottom: 40px;
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: relative;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+
+}
+
+.loan-approval-text075 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970605 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5012 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5106 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame39717 {
+  top: 1681px;
+  left: 188px;
+  width: 156px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text077 {
+  top: 6px;
+  left: 67px;
+  color: var(--dl-color-default-lighttext1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5013 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame39718 {
+  top: 1710px;
+  left: 19px;
+  width: 153px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text079 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5014 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text081 {
+  top: 1649px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-rectangle13502 {
+  font-size: 16px;
+  top: 1887px;
+  padding-left: 20px;
+  left: 16px;
+  width: 328px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text083 {
+  top: 1855px;
+  left: 20px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text085 {
+  top: 1902px;
+  left: 32px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39720 {
+  top: 1976px;
+  left: 19px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13503 {
+  font-size: 16px;
+  padding-left: 20px;
+  top: 32px;
+  left: 0px;
+  width: 325px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text086 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text088 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39721 {
+  top: 2097px;
+  left: 16px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13504 {
+  font-size: 16px;
+  padding-left: 20px;
+  top: 32px;
+  left: 0px;
+  width: 324px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text089 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text091 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39722 {
+  top: 2218px;
+  left: 16px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13505 {
+  font-size: 16px;
+  padding-left: 20px;
+  top: 32px;
+  left: 0px;
+  width: 328px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text092 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text094 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39698 {
+  color: aliceblue;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  top: 2354px;
+  width: 328px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(0, 120, 255, 1);
+}
+
+.loan-approval-text095 {
+  top: 13px;
+  left: 128px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-desktop-version {
+  top: 32px;
+  left: 0px;
+  width: 1440px;
+  height: 2025px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.loan-approval-ellipse52 {
+  top: 630px;
+  left: 174px;
+  width: 87px;
+  height: 87px;
+  position: absolute;
+}
+
+.loan-approval-ellipse53 {
+  top: 1479px;
+  left: 101px;
+  width: 86px;
+  height: 86px;
+  position: absolute;
+}
+
+.loan-approval-ellipse54 {
+  top: 802px;
+  left: 1200px;
+  width: 136px;
+  height: 136px;
+  position: absolute;
+}
+
+.loan-approval-text097 {
+  top: 34px;
+  left: 763px;
+  color: var(--dl-color-default-primaryblue);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text099 {
+  top: 34px;
+  left: 649px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text101 {
+  top: 34px;
+  left: 954px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text103 {
+  top: 34px;
+  left: 1069px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text105 {
+  top: 34px;
+  left: 1203px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-vector4 {
+  top: 32px;
+  left: 120px;
+  width: 148px;
+  height: 31px;
+  position: absolute;
+}
+
+.loan-approval-rectangle641 {
+  top: 145px;
+  left: 630px;
+  width: 690px;
+  height: 353px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.loan-approval-frame39727 {
+  gap: 8px;
+  top: 211px;
+  left: 120px;
+  width: 418px;
+  height: 172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.loan-approval-text107 {
+  color: var(--dl-color-default-primaryblue);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text109 {
+  top: 34px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text111 {
+  top: 94px;
+  color: var(--dl-color-default-lighttext1);
+  width: 418px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-rectangle407 {
+  top: 578px;
+  left: 120px;
+  width: 1200px;
+  height: 1020px;
+  position: absolute;
+}
+
+.loan-approval-rectangle412 {
+  top: 664px;
+  left: 1222px;
+  width: 44px;
+  height: 19px;
+  position: absolute;
+}
+
+.loan-approval-frame39719 {
+  top: 1342px;
+  left: 200px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13506 {
+  top: 32px;
+  left: 0px;
+  width: 223px;
+  height: 49px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text116 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text118 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame397201 {
+  top: 1342px;
+  left: 473px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13507 {
+  top: 32px;
+  left: 0px;
+  width: 223px;
+  height: 49px;
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 20px;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text119 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text121 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame397211 {
+  top: 1342px;
+  left: 746px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13508 {
+  top: 32px;
+  left: 0px;
+  width: 223px;
+  height: 49px;
+  position: absolute;
+  font-size: 16px;
+  padding-left: 20px;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text122 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text124 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame397221 {
+  top: 1342px;
+  left: 1019px;
+  width: 223px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13509 {
+  top: 32px;
+  left: 0px;
+  width: 223px;
+  height: 49px;
+  position: absolute;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text125 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text127 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame397051 {
+  top: 890px;
+  left: 200px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(109, 109, 109);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text128 {
+  top: 18px;
+  left: 66px;
+
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text128 ::after {
+  color: var(--dl-color-default-primaryblue);
+}
+
+.loan-approval-group3970606 {
+  top: 19px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5015 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5107 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame397161 {
+  top: 1253px;
+  left: 200px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(89, 89, 89);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text130 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970607 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5016 {
+  top: -2px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5108 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame397081 {
+  top: 1011px;
+  left: 200px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(112, 112, 112);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text132 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970608 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5017 {
+  top: -20px;
+  right: 60px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5109 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame397121 {
+  top: 1132px;
+  left: 200px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: dimgrey;
+}
+
+.loan-approval-text134 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970609 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5018 {
+  top: 19px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5110 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame397101 {
+  top: 1011px;
+  left: 760px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: dimgray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+
+
+}
+
+.loan-approval-text136 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970610 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5019 {
+  top: -2px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(0, 120, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5111 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame397131 {
+  top: 1132px;
+  left: 760px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgb(109, 109, 109);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text138 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-group3970611 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-ellipse5020 {
+  top: -2px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-ellipse5112 {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.loan-approval-frame397061 {
+  top: 890px;
+  left: 412px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text140 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5021 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397171 {
+  top: 1253px;
+  left: 412px;
+  width: 194px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text142 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5022 {
+  top: 19px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397091 {
+  top: 1011px;
+  left: 412px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text144 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5023 {
+  top: 1px;
+  right: 30px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397141 {
+  top: 1132px;
+  left: 412px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text146 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5024 {
+  top: 0px;
+  right: 30px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397111 {
+  top: 1011px;
+  left: 972px;
+  width: 203px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text148 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5025 {
+  top: 20px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397151 {
+  top: 1132px;
+  left: 972px;
+  width: 203px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text150 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5026 {
+  top: 19px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397071 {
+  top: 890px;
+  left: 624px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text152 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5027 {
+  top: 21px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-frame397181 {
+  top: 1253px;
+  left: 645px;
+  width: 180px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text154 {
+  top: 18px;
+  left: 66px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-ellipse5028 {
+  top: 19px;
+  left: 32px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-color: rgba(86, 90, 92, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.loan-approval-text156 {
+  top: 858px;
+  left: 204px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text158 {
+  top: 1221px;
+  left: 204px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text160 {
+  top: 979px;
+  left: 204px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text162 {
+  top: 1100px;
+  left: 204px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text164 {
+  top: 979px;
+  left: 764px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text166 {
+  top: 1100px;
+  left: 764px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: relative;
+  font-size: 16px;
+  font-style: Medium;
+  font-family: Poppins;
+  font-weight: 500;
+  ;
+  text-decoration: none;
+}
+
+.loan-approval-frame397031 {
+  top: 747px;
+  left: 200px;
+  width: 480px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13510 {
+  top: 32px;
+  left: 0px;
+  width: 480px;
+  height: 49px;
+  position: absolute;
+  font-size: 16px;
+  padding-left: 20px;
+  font-style: Regular;
+  font-family: Roboto;
+  font-weight: 400;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  color: var(--dl-color-default-darktext1);
+}
+
+.loan-approval-text168 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text170 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame397041 {
+  top: 747px;
+  left: 760px;
+  width: 480px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-rectangle13511 {
+  top: 32px;
+  left: 0px;
+  width: 480px;
+  height: 49px;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  padding-left: 20px;
+  border-color: rgba(198, 206, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.loan-approval-text172 {
+  left: 4px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text174 {
+  top: 47px;
+  left: 16px;
+  color: var(--dl-color-default-lighttext1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-rectangle408 {
+  top: 578px;
+  left: 1168px;
+  width: 152px;
+  height: 80px;
+  position: absolute;
+  border-radius: 0 10px 0 0;
+}
+
+.loan-approval-rectangle413 {
+  top: 664px;
+  left: 1270px;
+  width: 50px;
+  height: 41px;
+  position: absolute;
+}
+
+.loan-approval-text176 {
+  top: 640px;
+  left: 218px;
+  color: var(--dl-color-default-darktext1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame396981 {
+  top: 1489px;
+  left: 619px;
+  width: 202px;
+  height: 55px;
+  color: var(--dl-color-default-white1);
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-left: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(0, 120, 255, 1);
+  cursor: pointer;
+}
+
+.loan-approval-text178 {
+  top: 13px;
+  left: 65px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame39702 {
+  top: 1678px;
+  left: 0px;
+  width: 1440px;
+  height: 379px;
+  display: flex;
+  padding: 24px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  background-color: rgba(34, 35, 36, 1);
+}
+
+.loan-approval-footer {
+  top: 48px;
+  left: 120px;
+  width: 1200px;
+  height: 307px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-text180 {
+  top: 97px;
+  color: var(--dl-color-default-white1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-services-footer1 {
+  top: 0px;
+  left: 890px;
+  width: 130px;
+  height: 96px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-text182 {
+  color: var(--dl-color-default-white1);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text184 {
+  top: 37.99998092651367px;
+  color: var(--dl-color-default-white1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text186 {
+  top: 69px;
+  color: var(--dl-color-default-white1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-get-help1 {
+  top: 0px;
+  left: 1120px;
+  width: 80px;
+  height: 127px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loan-approval-text188 {
+  color: var(--dl-color-default-white1);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text190 {
+  top: 37.99998092651367px;
+  color: var(--dl-color-default-white1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text192 {
+  top: 69.00003051757812px;
+  color: var(--dl-color-default-white1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text194 {
+  top: 100.00001525878906px;
+  color: var(--dl-color-default-white1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-frame11501 {
+  gap: 36px;
+  top: 290px;
+  left: 490px;
+  width: 220px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.loan-approval-text196 {
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text198 {
+  left: 78px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-text200 {
+  left: 164px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-socail-media1 {
+  top: 215px;
+  left: 531px;
+  width: 137px;
+  height: 34px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.loan-approval-vector5 {
+  top: 8px;
+  left: 63px;
+  width: 14px;
+  height: 17px;
+  position: absolute;
+}
+
+.loan-approval-icon-lucide-icon1 {
+  top: 7px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.loan-approval-bxlgmail1 {
+  top: 7px;
+  left: 110px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.loan-approval-vector6 {
+  top: 18px;
+  left: 0px;
+  width: 282px;
+  height: 59px;
+  position: absolute;
+}
+
+.loan-approval-text202 {
+  top: 180px;
+  left: 570px;
+  color: var(--dl-color-default-white1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loan-approval-vector7 {
+  top: 180px;
+  left: 551px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+@media(max-width: 1440px) {
+  .loan-approval-loan-approval-mobile {
+    height: 2092px;
+    margin-bottom: 0px;
+  }
+
+  .loan-approval-mobile-version {
+    display: none;
+  }
+
+  .loan-approval-desktop-version {
+    height: 2040px;
+    margin-bottom: 0px;
+  }
+
+  .loan-approval-ellipse52 {
+    top: 598px;
+    left: 174px;
+  }
+
+  .loan-approval-ellipse53 {
+    left: 101px;
+    bottom: 492px;
+  }
+
+  .loan-approval-ellipse54 {
+    top: 770px;
+    right: 60px;
+  }
+
+  .loan-approval-text097 {
+    top: 2px;
+    right: 546.28125px;
+  }
+
+  .loan-approval-text099 {
+    top: 2px;
+    left: 649px;
+  }
+
+  .loan-approval-text101 {
+    top: 2px;
+    right: 431.375px;
+  }
+
+  .loan-approval-text103 {
+    top: 2px;
+    right: 297.515625px;
+  }
+
+  .loan-approval-text105 {
+    top: 2px;
+    right: 120.75px;
+  }
+
+  .loan-approval-vector4 {
+    top: 0px;
+    left: 120px;
+  }
+
+  .loan-approval-rectangle641 {
+    top: 113px;
+    left: 630px;
+  }
+
+  .loan-approval-frame39727 {
+    top: 179px;
+    left: 120px;
+  }
+
+  .loan-approval-rectangle407 {
+    top: 546px;
+    left: 120px;
+  }
+
+  .loan-approval-rectangle412 {
+    top: 632px;
+    right: 174px;
+  }
+
+  .loan-approval-frame39719 {
+    left: 200px;
+    bottom: 634px;
+  }
+
+  .loan-approval-frame397201 {
+    left: 473px;
+    bottom: 634px;
+  }
+
+  .loan-approval-frame397211 {
+    right: 471px;
+    bottom: 634px;
+  }
+
+  .loan-approval-frame397221 {
+    right: 198px;
+    bottom: 634px;
+  }
+
+  .loan-approval-frame397051 {
+    top: 856px;
+    left: 200px;
+  }
+
+  .loan-approval-frame397161 {
+    left: 200px;
+    bottom: 745px;
+  }
+
+  .loan-approval-frame397081 {
+    top: 979px;
+    left: 200px;
+  }
+
+  .loan-approval-frame397121 {
+    left: 200px;
+    bottom: 866px;
+  }
+
+  .loan-approval-frame397101 {
+    top: 979px;
+    right: 500px;
+  }
+
+  .loan-approval-frame397131 {
+    right: 500px;
+    bottom: 866px;
+  }
+
+  .loan-approval-frame397061 {
+    top: 858px;
+    left: 412px;
+  }
+
+  .loan-approval-frame397171 {
+    left: 412px;
+    bottom: 745px;
+  }
+
+  .loan-approval-frame397091 {
+    top: 979px;
+    left: 412px;
+  }
+
+  .loan-approval-frame397141 {
+    left: 412px;
+    bottom: 866px;
+  }
+
+  .loan-approval-frame397111 {
+    top: 979px;
+    right: 265px;
+  }
+
+  .loan-approval-frame397151 {
+    right: 265px;
+    bottom: 866px;
+  }
+
+  .loan-approval-frame397071 {
+    top: 858px;
+    left: 624px;
+  }
+
+  .loan-approval-frame397181 {
+    left: 645px;
+    bottom: 745px;
+  }
+
+  .loan-approval-text156 {
+    top: 826px;
+    left: 204px;
+  }
+
+  .loan-approval-text158 {
+    left: 204px;
+    bottom: 811px;
+  }
+
+  .loan-approval-text160 {
+    top: 947px;
+    left: 204px;
+  }
+
+  .loan-approval-text162 {
+    left: 204px;
+    bottom: 932px;
+  }
+
+  .loan-approval-text164 {
+    top: 947px;
+    right: 595.15625px;
+  }
+
+  .loan-approval-text166 {
+    right: 566px;
+    bottom: 932px;
+  }
+
+  .loan-approval-frame397031 {
+    top: 715px;
+    left: 200px;
+  }
+
+  .loan-approval-frame397041 {
+    top: 715px;
+    right: 200px;
+  }
+
+  .loan-approval-rectangle408 {
+    top: 546px;
+    right: 120px;
+  }
+
+  .loan-approval-rectangle413 {
+    top: 632px;
+    right: 120px;
+  }
+
+  .loan-approval-text176 {
+    top: 608px;
+    left: 218px;
+  }
+
+  .loan-approval-frame396981 {
+    left: 619px;
+    bottom: 513px;
+  }
+
+  .loan-approval-frame39702 {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .loan-approval-footer {
+    margin-bottom: 0px;
+  }
+}
+
+@media(max-width: 360px) {
+  .loan-approval-text176 {
+    display: none;
+  }
+
+  .loan-approval-frame39702 {
+    display: none;
+  }
+
+  .loan-approval-loan-approval-mobile {
+    height: 3404px;
+  }
+
+  .loan-approval-mobile-version {
+    display: flex;
+  }
+
+  .loan-approval-mdihamburgermenu {
+    top: 0px;
+    right: 152px;
+  }
+
+  .loan-approval-vector {
+    top: 0px;
+    left: 16px;
+  }
+
+  .loan-approval-group39947 {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .loan-approval-services-footer {
+    left: 115px;
+    bottom: 524px;
+  }
+
+  .loan-approval-get-help {
+    left: 140px;
+    bottom: 299px;
+  }
+
+  .loan-approval-text022 {
+    left: 24px;
+    bottom: 690px;
+  }
+
+  .loan-approval-vector2 {
+    left: 73px;
+    bottom: 771px;
+  }
+
+  .loan-approval-socail-media {
+    left: 111px;
+    bottom: 49px;
+  }
+
+  .loan-approval-ellipse49 {
+    border-width: 0px;
+  }
+
+  .loan-approval-ellipse50 {
+    border-width: 0px;
+  }
+
+  .loan-approval-ellipse51 {
+    border-width: 0px;
+  }
+
+  .loan-approval-text024 {
+    top: 480px;
+    left: 15px;
+  }
+
+  .loan-approval-rectangle64 {
+    top: 84px;
+    left: 16px;
+  }
+
+  .loan-approval-text026 {
+    top: 304px;
+    left: 18px;
+  }
+
+  .loan-approval-text028 {
+    top: 338px;
+    left: 18px;
+  }
+
+  .loan-approval-text030 {
+    top: 381px;
+    left: 18px;
+  }
+
+  .loan-approval-frame39703 {
+    top: 631px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39704 {
+    top: 736px;
+    left: 15px;
+  }
+
+  .loan-approval-frame39705 {
+    top: 881px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39706 {
+    top: 883px;
+    left: 188px;
+  }
+
+  .loan-approval-frame39707 {
+    top: 956px;
+    left: 15px;
+  }
+
+  .loan-approval-text049 {
+    top: 841px;
+    left: 20px;
+  }
+
+  .loan-approval-frame39708 {
+    top: 1095px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39709 {
+    top: 1095px;
+    left: 188px;
+  }
+
+  .loan-approval-text055 {
+    top: 1055px;
+    left: 20px;
+  }
+
+  .loan-approval-frame39710 {
+    top: 1234px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39711 {
+    top: 1234px;
+    left: 188px;
+  }
+
+  .loan-approval-text061 {
+    top: 1194px;
+    left: 20px;
+  }
+
+  .loan-approval-frame39712 {
+    top: 1373px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39714 {
+    top: 1373px;
+    left: 188px;
+  }
+
+  .loan-approval-text067 {
+    top: 1333px;
+    left: 20px;
+  }
+
+  .loan-approval-frame39713 {
+    top: 1504px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39715 {
+    top: 1504px;
+    left: 188px;
+  }
+
+  .loan-approval-text073 {
+    top: 1472px;
+    left: 20px;
+  }
+
+  .loan-approval-frame39716 {
+    top: 1635px;
+    left: 16px;
+  }
+
+  .loan-approval-frame39717 {
+    top: 1635px;
+    left: 188px;
+  }
+
+  .loan-approval-frame39718 {
+    left: 19px;
+    bottom: 1544px;
+  }
+
+  .loan-approval-text081 {
+    top: 1603px;
+    left: 20px;
+  }
+
+  .loan-approval-rectangle13502 {
+    left: 16px;
+    bottom: 1423px;
+  }
+
+  .loan-approval-text083 {
+    left: 20px;
+    bottom: 1479px;
+  }
+
+  .loan-approval-text085 {
+    left: 32px;
+    bottom: 1438px;
+  }
+
+  .loan-approval-frame39720 {
+    left: 19px;
+    bottom: 1302px;
+  }
+
+  .loan-approval-frame39721 {
+    left: 16px;
+    bottom: 1181px;
+  }
+
+  .loan-approval-frame39722 {
+    left: 16px;
+    bottom: 1060px;
+  }
+
+  .loan-approval-frame39698 {
+    left: 16px;
+    bottom: 950px;
+  }
+
+  .loan-approval-desktop-version {
+    display: none;
+  }
+
+  .loan-approval-frame397031 {
+    top: 562px;
+    left: 16px;
+  }
+
+  .loan-approval-rectangle13510,
+  .loan-approval-rectangle13511 {
+    width: 300px;
+  }
+
+  .loan-approval-frame397041 {
+    top: 670px;
+    left: 16px;
+  }
+
+  .loan-approval-text156 {
+    left: 16px;
+    top: 780px;
+  }
+
+  .loan-approval-frame397051 {
+    left: 16px;
+    top: 820px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397061 {
+    left: 190px;
+    top: 820px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397071 {
+    left: 16px;
+    top: 900px;
+    width: 156px;
+  }
+
+  .loan-approval-text160 {
+    left: 16px;
+    top: 990px;
+  }
+
+  .loan-approval-frame397081 {
+    left: 16px;
+    top: 1030px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397091 {
+    left: 190px;
+    top: 1030px;
+    width: 156px;
+  }
+
+  .loan-approval-text162 {
+    left: 16px;
+    top: 1234px;
+
+  }
+
+  .loan-approval-frame397121 {
+    left: 16px;
+    top: 1270px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397141 {
+    left: 190px;
+    top: 1270px;
+    width: 156px;
+  }
+
+  .loan-approval-text158 {
+    left: 16px;
+    top: 1468px;
+  }
+
+  .loan-approval-frame397161 {
+    left: 16px;
+    top: 1510px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397171 {
+    left: 190px;
+    top: 1510px;
+    width: 156px;
+  }
+
+  .loan-approval-text166 {
+    left: 16px;
+    top: 1348px;
+  }
+
+  .loan-approval-frame397131 {
+    left: 16px;
+    top: 1390px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397151 {
+    left: 190px;
+    top: 1390px;
+    width: 156px;
+  }
+
+  .loan-approval-text142 {
+    top: 4px;
+  }
+
+  .loan-approval-text164 {
+    left: 16px;
+    top: 1114px;
+  }
+
+  .loan-approval-frame397101 {
+    left: 16px;
+    top: 1150px;
+    width: 156px;
+  }
+
+  .loan-approval-frame397111 {
+    left: 190px;
+    top: 1150px;
+    width: 156px;
+  }
+
+  .loan-approval-text148 {
+    top: 4px;
+  }
+
+  .loan-approval-frame397181 {
+    top: 1588px;
+    left: 16px;
+    width: 156px;
+  }
+
+  .loan-approval-frame39719 {
+    left: 16px;
+    top: 1680px;
+    width: 156px;
+  }
+
+  .loan-approval-rectangle13507 {
+    width: 300px;
+  }
+
+  .loan-approval-frame397201 {
+    left: 16px;
+    top: 1790px;
+  }
+
+  .loan-approval-frame397211 {
+    left: 16px;
+    top: 1900px;
+  }
+
+  .loan-approval-rectangle13508 {
+    width: 300px;
+  }
+
+  .loan-approval-frame397221 {
+    left: 16px;
+    top: 2010px;
+  }
+
+  .loan-approval-frame396981 {
+    left: 16px;
+    top: 2140px;
+    width: 330px;
+    padding-left: 130px;
+  }
+
+  .loan-approval-group39947 {
+    top: 2280px;
+  }
+
+  .loan-approval-text022 {
+    top: 2420px;
+  }
+
+  .loan-approval-vector2 {
+    top: 2340px;
+  }
+
+  .loan-approval-services-footer {
+    top: 2560px;
+  }
+
+  .loan-approval-get-help {
+    top: 2750px;
+  }
+
+  .loan-approval-vector,
+  .loan-approval-mdihamburgermenu {
+    margin-top: 20px;
+  }
+}
