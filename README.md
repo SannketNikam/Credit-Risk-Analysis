@@ -1,6 +1,6 @@
 # 🏦Credit Risk Analysis💸
 
-<img src="./static/images/Home Page Mobile.png"/>
+<img src="./static/images/Home_page_mobile.png"/>
 
 ## What is Credit Risk Analysis?
 **Credit Risk Analysis** is an important process that enables lenders, credit rating agencies, and other financial institutions to evaluate the creditworthiness of borrowers and make informed decisions about extending credit. In this project, we will be using the **XGBoost** algorithm to predict whether a borrower is likely to default on a loan or not.
