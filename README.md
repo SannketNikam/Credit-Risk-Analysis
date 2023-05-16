@@ -1,6 +1,6 @@
 # 🏦Credit Risk Analysis💸
 
-<img src="./static/images/Credit-Risk-Analysis.jpg"/>
+<img src="./static/images/Home Page Mobile.png"/>
 
 ## What is Credit Risk Analysis?
 **Credit Risk Analysis** is an important process that enables lenders, credit rating agencies, and other financial institutions to evaluate the creditworthiness of borrowers and make informed decisions about extending credit. In this project, we will be using the **XGBoost** algorithm to predict whether a borrower is likely to default on a loan or not.
@@ -20,11 +20,8 @@ Our XGBoost model achieves an accuracy of 85% indicating that it is a good predi
 ## Conclusion
 In this project, we have demonstrated the use of XGBoost for credit risk analysis. By training a model on the loan dataset, we were able to predict the likelihood of loan default with high accuracy. This type of analysis can be useful for lenders and other financial institutions to make informed decisions about extending credit to borrowers.
 
-# Input Page:
-<img src="./static/images/Screenshot%20(1).png"/>
-
-# Output Page:
-<img src="./static/images/Screenshot%202023-03-28%20094921.png"/>
+# Loan Approval Page:
+<img src="./static/images/Loan Approval.png"/>
 
 # Installation:
 1. Clone the repository to your local machine:
